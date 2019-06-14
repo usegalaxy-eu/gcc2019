@@ -15,8 +15,8 @@
    version="1.1"
    id="svg2353"
    inkscape:export-filename="/Users/bebatut/Documents/com/conf/2019/gcc2019/com/program/logos/community.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="1018.3485"
+   inkscape:export-ydpi="1018.3485"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="community.svg">
   <defs
@@ -29,15 +29,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-114.28571"
+     inkscape:cx="-628.57142"
      inkscape:cy="560"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1156"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="755"
+     inkscape:window-x="1920"
+     inkscape:window-y="1"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata2350">
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
