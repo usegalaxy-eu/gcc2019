@@ -1,0 +1,183 @@
+{
+    "min_2b_tractable":   0.033,
+    "max_2b_interesting": 0.90,
+    "num_questions": 10,
+    "label_columns": 7,
+    "label_rows": 15,
+    "labels_per_person": 15,
+    "labels_fields": [
+        "name",
+        "firstname",
+        "organisation",
+        "city",
+        "country",
+        "field",
+        "subfield",
+        "hobbies",
+        "random"
+    ],
+    "questions": [
+        {
+            "question": "you have never met before <em>in person</em>",
+            "penetrance": 1.0,
+            "difficulty": 0.10
+        },
+        {
+            "question": "is a poster presenter",
+            "penetrance": 0.50,
+            "difficulty": 0.05
+        },
+        {
+            "question": "is a speaker",
+            "penetrance": 0.20,
+            "difficulty": 0.10
+        },
+        {
+            "question": "is a training session instructor",
+            "penetrance": 0.30,
+            "difficulty": 0.20
+        },
+        {
+            "question": "is a demo presenter",
+            "penetrance": 0.10,
+            "difficulty": 0.20
+        },
+        {
+            "question": "is a lightning talk speaker",
+            "penetrance": 0.10,
+            "difficulty": 0.20
+        },
+        {
+            "question": "has attended a Galaxy-related hackathan/contribution fest before",
+            "penetrance": 0.10,
+            "difficulty": 0.6
+        },
+        {
+            "question": "has contributed code to any project in github.com/galaxyproject",
+            "penetrance": 0.1,
+            "difficulty": 0.9
+        },
+        {
+            "question": "has submitted doc to the GalaxyProject.org hub, or the wiki that preceded it",
+            "penetrance": 0.1,
+            "difficulty": 0.9
+        },
+        {
+            "question": "has contributed to the Galaxy Training Material",
+            "penetrance": 0.1,
+            "difficulty": 0.9
+        },
+        {
+            "question": "has attended at least 3 previous GCCs",
+            "penetrance": 0.05,
+            "difficulty": 0.95
+        },
+        {
+            "question": "is a member of the Scientific Program Committees for GCC 2019",
+            "penetrance": 0.05,
+            "difficulty": 0.30
+        },
+        {
+            "question": "is on the GCC organizing committee",
+            "penetrance": 0.05,
+            "difficulty": 0.20
+        },
+        {
+            "question": "has contributed at least one tool to the Galaxy Tool Shed",
+            "penetrance": 0.05,
+            "difficulty": 0.95
+        },
+        {
+            "question": "is a PhD student",
+            "penetrance": 0.30,
+            "difficulty": 0.1
+        },
+        {
+            "question": "is a Postdoc",
+            "penetrance": 0.30,
+            "difficulty": 0.1
+        },
+        {
+            "question": "is a Bachelor or Master Student",
+            "penetrance": 0.10,
+            "difficulty": 0.1
+        },
+        {
+            "question": "is a Professor",
+            "penetrance": 0.1,
+            "difficulty": 0.9
+        }, 
+        {
+            "question": "is a Research Engineer",
+            "penetrance": 0.1,
+            "difficulty": 0.9
+        },       
+        {
+            "question": "attends or attended the conference dinner",
+            "penetrance": 0.60,
+            "difficulty": 0.1
+        },
+        {
+            "question": "went to conferences in at least three different countries",
+            "penetrance": 0.60,
+            "difficulty": 0.1
+        },
+        {
+            "question": "has a different studied major than their current research field",
+            "penetrance": 0.20,
+            "difficulty": 0.1
+        },
+        {
+            "question": "were born in a different country than the one currently living",
+            "penetrance": 0.10,
+            "difficulty": 0.1
+        },
+        {
+            "question": "is 35 years old or younger",
+            "penetrance": 0.20,
+            "difficulty": 0.1
+        },
+        {
+            "question": "is 35 years old or older",
+            "penetrance": 0.20,
+            "difficulty": 0.1
+        }
+    ],
+    "data_questions": [
+        {
+            "input_item": "city",
+            "input_arity": "Singleton",
+            "output_question": "from the city/area of"
+        },
+        {
+            "input_item": "country",
+            "input_arity": "Singleton",
+            "output_question": "from"
+        },
+        {
+            "input_item": "organisation",
+            "input_arity": "Singleton",
+            "output_question": "affiliated with"
+        },
+        {
+            "input_item": "field",
+            "input_arity": "Singleton",
+            "output_question": "works in the field of"
+        },
+        {
+            "input_item": "hobbies",
+            "input_arity": "Singleton",
+            "output_question": "knows/is interested in"
+        },
+        {
+            "input_item": "subfield",
+            "input_arity": "Singleton",
+            "output_question": "works in the field of/knows about"
+        },
+        {
+            "input_item": "random",
+            "input_arity": "Singleton",
+            "output_question": "knows"
+        }
+    ]
+}
